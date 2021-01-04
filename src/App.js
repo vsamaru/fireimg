@@ -22,12 +22,14 @@ export default class extends Component {
     };
 
     var config = {
-      apiKey: "AIzaSyBx4BOSEvPUH8Er4905Q6shu61fEPN6BQ0",
-      authDomain: "mycomment-9e778.firebaseapp.com",
-      databaseURL: "https://mycomment-9e778.firebaseio.com",
-      projectId: "mycomment-9e778",
-      storageBucket: "mycomment-9e778.appspot.com",
-      messagingSenderId: "208922274925"
+      apiKey: "AIzaSyD13zCeYQNyolRrt-U-OqDHh8YPGW2tGW8",
+      authDomain: "pbl-6a.firebaseapp.com",
+      databaseURL: "https://pbl-6a.firebaseio.com",
+      projectId: "pbl-6a",
+      storageBucket: "pbl-6a.appspot.com",
+      messagingSenderId: "108065609295",
+      appId: "1:108065609295:web:e39b287fe7a697cb0ffc3a",
+      measurementId: "G-5JS4SS08Y3"
     };
 
     !firebase.apps.length ? firebase.initializeApp(config) : firebase.apps;
